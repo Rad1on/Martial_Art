@@ -11,3 +11,8 @@ ul{
 h1, h2, h3, h4, h5{
     margin: 0;
 }
+.logo{
+font-family: 'Permanent Marker', cursive;
+font-size: 70px;
+color: brown;
+}
