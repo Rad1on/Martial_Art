@@ -8,15 +8,18 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;400;500;600&family=Permanent+Marker&family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap"
-            rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;400;500;600&family=Permanent+Marker&family=Raleway:wght@700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,700&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <Header>
         <nav>
-            <a href="" class="logo">
-             <img src="./icons/logo_ready_to_use.svg" alt="">
-            </a>
+            <div class="logo-container">
+                <a href="" class="logo">
+                <img src="./icons/logo_ready_to_use.svg" alt="">
+                </a>
+            </div>
             
              <nav>
                 <ul class="nav-list">
@@ -53,22 +56,28 @@
         <section class="catalog-section">
             <h1>Каталог</h1>
             <ul class="katalog-list">
-                <li>
-                    <a href="">Новинки</a>
-                </li>
-                <li>
-                    <a href="">Акції</a>
-                </li>
-                <li>
+                <li class="catalog-one">
                     <a href="">
-                        <img src="./images/equip.png" alt="Екіпірування" class="catalog-image">
-                        Екіпірування
+                        <img src="./images/new.png" alt="Новинки" class="catalog-image">
+                        <span class="catalog-text">Новинки</span> 
                     </a>
                 </li>
-                <li>
+                <li class="catalog-one">
+                    <a href="">
+                        <img src="./images/discount.png" alt="Акції" class="catalog-image">
+                         <span class="catalog-text">Акції</span>
+                    </a>
+                </li>
+                <li class="catalog-one">
+                    <a href="">
+                        <img src="./images/equip.png" alt="Екіпірування" class="catalog-image">
+                         <span class="catalog-text">Екіпірування</span>
+                    </a>
+                </li>
+                <li class="catalog-one">
                     <a href="">
                         <img src="./images/clothes.png" alt="Одяг для занять" class="catalog-image">
-                        Одяг для занять
+                         <span class="catalog-text">Одяг для занять</span>
                     </a>
                 </li>
                 
