@@ -36,6 +36,12 @@ h1, h2, h3, h4, h5{
     width: 20%;
 }
 
+.container{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+}
+
 .logo-container{
     width: 500px;
 }
