@@ -34,12 +34,24 @@ h1, h2, h3, h4, h5{
     display: flex;
 }
 .catalog-image-container{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+}
+.catalog-image-container:hover,
+.catalog-image-container:focus{
+    background-color: #ff4c00;
 }
 .catalog-image{
     width: 60%;
+}
+.catalog-image:hover,
+.catalog-image:focus{
+width: 70%;
 }
 
 .container{
