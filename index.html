@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;400;500;600&family=Permanent+Marker&family=Raleway:wght@700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,700&display=swap"
+        rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;400;500;600&family=Permanent+Marker&family=Raleway:wght@700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,700&display=swap"
         rel="stylesheet">
@@ -16,11 +18,12 @@
     <Header class="page-header">
         <div class="container">
 
-            <nav>
+            <nav class="nav">
                 <div class="logo-container">
                     <a href="" class="logo">
                     <img src="./icons/logo_ready_to_use.svg" alt="">
                     </a>
+                </div>
                 
                 
                 
@@ -56,42 +59,44 @@
         
     </Header>
     <main>
+        
         <div class="container">
             <section class="catalog-section">
                 <h1>Каталог</h1>
                 <ul class="katalog-list">
                     <li class="catalog-one">
-                        <a href="">
+                        <a href="" class="catalog-url">
+                            <span class="catalog-text">Новинки</span>
                             <div class="catalog-image-container">
                                 <img src="./images/new.png" alt="Новинки" class="catalog-image">
-                                <span class="catalog-text">Новинки</span>
                             </div>
+                            
                              
                         </a>
                     </li>
                     <li class="catalog-one">
-                        <a href="">
+                        <a href="" class="catalog-url">
+                            <span class="catalog-text">Акції</span>
                             <div class="catalog-image-container">
                                 <img src="./images/discount.png" alt="Акції" class="catalog-image">
-                                <span class="catalog-text">Акції</span>
                             </div>
                             
                         </a>
                     </li>
                     <li class="catalog-one">
-                        <a href="">
+                        <a href="" class="catalog-url">
+                            <span class="catalog-text">Екіпірування</span>
                             <div class="catalog-image-container">
                                 <img src="./images/equip.png" alt="Екіпірування" class="catalog-image">
-                                <span class="catalog-text">Екіпірування</span>
                             </div>
                             
                         </a>
                     </li>
                     <li class="catalog-one">
-                        <a href="">
+                        <a href="" class="catalog-url">
+                            <span class="catalog-text">Одяг для занять</span>
                             <div class="catalog-image-container">
                                 <img src="./images/clothes2.png" alt="Одяг для занять" class="catalog-image">
-                                <span class="catalog-text">Одяг для занять</span>
                             </div>
                             
                         </a>
@@ -105,110 +110,118 @@
         </article>
     </main>
     <footer>
-        <section class="link">
-            <a href="" class="logo">Martial Art</a>
-            <ul class="join-list">
-                <li class="join-link"><a href="" class="facebook">facebook</a></li>
-                <li class="join-link"><a href="" class="youtube">youtube</a></li>
-                <li class="join-link"><a href="" class="instagram">instagram</a></li>
-                <li class="join-link"><a href="" class="telegram">telegram</a></li>
-            </ul>
-        </section>
-        <section class="info-section">
-            <ul class="about">
-                <li>
-                  <section class="about-company">
-                    <h4>Про компанію</h4> 
-                    <ul class="about-company-list">
-                        <li>
-                            <a href="">Контакти</a>
-                        </li>
-                        <li>
-                            <a href="">Новини</a>
-                        </li>
-                        <li>
-                            <a href="">Магазини</a>
-                        </li>
-                        <li>
-                            <a href="">Кар'єра в компанії</a>
-                        </li>
-                        <li>
-                            <a href="">Про eSport-shop</a>
-                        </li>
-                        <li>
-                            <a href="">Гарантії</a>
-                        </li>
-                    </section> 
-                </li>
-                <li>
-                    <section class="info-for-buyers">
-                        <h4>Інформація для покупців</h4>
-                        <ul class="info-for-buyers-list">
+        <div class="container">
+            <section class="link">
+                <div class="logo-container">
+                    <a href="" class="logo">
+                        <img src="./icons/logo_ready_to_use.svg" alt="">
+                    </a>
+                </div>
+                <ul class="join-list">
+                    <li class="join-link"><a href="" class="facebook">facebook</a></li>
+                    <li class="join-link"><a href="" class="youtube">youtube</a></li>
+                    <li class="join-link"><a href="" class="instagram">instagram</a></li>
+                    <li class="join-link"><a href="" class="telegram">telegram</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="container">
+            <section class="info-section">
+                <ul class="about">
+                    <li>
+                    <section class="about-company">
+                        <h4>Про компанію</h4> 
+                        <ul class="about-company-list">
                             <li>
-                                <a href="">Оплата та доставка</a>
+                                <a href="">Контакти</a>
                             </li>
                             <li>
-                                <a href="">Повернення товару</a>
+                                <a href="">Новини</a>
                             </li>
                             <li>
-                                <a href="">Питання та відповіді</a>
+                                <a href="">Магазини</a>
                             </li>
                             <li>
-                                <a href="">Бренди</a>
+                                <a href="">Кар'єра в компанії</a>
                             </li>
                             <li>
-                                <a href="">Сертифікати</a>
+                                <a href="">Про eSport-shop</a>
                             </li>
                             <li>
-                                <a href="">Правила публікації відгуків</a>
+                                <a href="">Гарантії</a>
                             </li>
-                            <li>
-                                <a href="">Як вибрати потрібний розмір</a>
-                            </li>
-                            <li>
-                                <a href="">Рекомендації по догляду</a>
-                            </li>
-                        </ul>
-                    </section>
-                </li>
-                <li>
-                    <section class="loyalty-section">
-                        <h4>Програма лояльності</h4>
-                        <ul class="loyalty-list">
-                            <li>
-                                <a href="">Програма лояльності</a>
-                            </li>
-                            <li>
-                                <a href="">Активація клубної карти</a>
-                            </li>
-                        </ul>
-                    </section>
+                        </section> 
+                    </li>
+                    <li>
+                        <section class="info-for-buyers">
+                            <h4>Інформація для покупців</h4>
+                            <ul class="info-for-buyers-list">
+                                <li>
+                                    <a href="">Оплата та доставка</a>
+                                </li>
+                                <li>
+                                    <a href="">Повернення товару</a>
+                                </li>
+                                <li>
+                                    <a href="">Питання та відповіді</a>
+                                </li>
+                                <li>
+                                    <a href="">Бренди</a>
+                                </li>
+                                <li>
+                                    <a href="">Сертифікати</a>
+                                </li>
+                                <li>
+                                    <a href="">Правила публікації відгуків</a>
+                                </li>
+                                <li>
+                                    <a href="">Як вибрати потрібний розмір</a>
+                                </li>
+                                <li>
+                                    <a href="">Рекомендації по догляду</a>
+                                </li>
+                            </ul>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="loyalty-section">
+                            <h4>Програма лояльності</h4>
+                            <ul class="loyalty-list">
+                                <li>
+                                    <a href="">Програма лояльності</a>
+                                </li>
+                                <li>
+                                    <a href="">Активація клубної карти</a>
+                                </li>
+                            </ul>
+                        </section>
 
-                </li>
-                <li>
-                    <section class="contact">
-                        <h4>Наші контакти</h4>
-                        <ul class="contact-list">
-                            <li>
-                                <a href="tel:093 5555555">093 5555555</a>
-                            </li>
-                            <li>
-                                <a href="tel:093 5555555">093 5555555</a>
-                            </li>
-                            <li>
-                                <a href="tel:093 5555555">093 5555555</a>
-                            </li>
-                            <li>
-                                <a href="tel:093 5555555">093 5555555</a>
-                            </li>
-                            <li>
-                                <a href="tel:093 5555555">093 5555555</a>
-                            </li>
-                        </ul>
-                    </section>
-                </li>
-            </ul>
-        </section>
+                    </li>
+                    <li>
+                        <section class="contact">
+                            <h4>Наші контакти</h4>
+                            <ul class="contact-list">
+                                <li>
+                                    <a href="tel:093 5555555">093 5555555</a>
+                                </li>
+                                <li>
+                                    <a href="tel:093 5555555">093 5555555</a>
+                                </li>
+                                <li>
+                                    <a href="tel:093 5555555">093 5555555</a>
+                                </li>
+                                <li>
+                                    <a href="tel:093 5555555">093 5555555</a>
+                                </li>
+                                <li>
+                                    <a href="tel:093 5555555">093 5555555</a>
+                                </li>
+                            </ul>
+                        </section>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </footer>
 </body>
 </html>

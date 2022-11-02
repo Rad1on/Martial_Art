@@ -1,7 +1,8 @@
 /*  main text color  */
 /*main font family -  font-family: 'Roboto',
  sans-serif;*/ 
-/**/
+/*second font family - font-family: 'Permanent Marker',
+cursive;*/
 /**/
 /**/
 /**/
@@ -29,9 +30,23 @@ h1, h2, h3, h4, h5{
 .logo{
        width: 20%;   
 }
+.nav{
+    display: flex;
+}
+.nav-list{
+    display: flex;
+}
+
 .katalog-list {
     margin: auto;
     display: flex;
+}
+
+.catalog-url{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .catalog-image-container{
     width: 350px;
@@ -42,17 +57,22 @@ h1, h2, h3, h4, h5{
     justify-content: center;
     flex-direction: column;
 }
-.catalog-image-container:hover,
-.catalog-image-container:focus{
-    background-color: #ff4c00;
+
+.catalog-text {
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-size: 30px;
+    opacity: 1;
 }
+
 .catalog-image{
     width: 60%;
 }
 .catalog-image:hover,
 .catalog-image:focus{
-width: 70%;
+width: 80%;
 }
+
 
 .container{
     width: 1400px;
@@ -62,6 +82,17 @@ width: 70%;
 
 .logo-container{
     width: 500px;
+}
+
+/* footer */
+.link{
+    display: flex;
+}
+.join-list{
+    display: flex;
+}
+.about{
+    display: flex;
 }
 
 
